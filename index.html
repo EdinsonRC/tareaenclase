@@ -4,25 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Practica en clase</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Formulario de Registro</title>
   </head>
   <body>
     <!-- inicia el header -->
     <header>
       <!-- inicia el nav -->
-      <nav>
+      <!-- <nav>
         <ul>
           <li><a href="#">Inicio</a></li>
           <li><a href="#">Proyecto</a></li>
           <li><a href="#">Peliculas</a></li>
         </ul>
-      </nav>
+      </nav> -->
       <!-- fin del nav -->
 
       <!-- inicio del formulario -->
-      <section>
-        <h3>Solicita más info Aquí</h3>
+      <section class="form-register">
+        <h4>Solicita más informacion Aquí</h4>
         <form action="#"></form>
+        <input
+          class="controls"
+          type="text"
+          name="nombres"
+          id="nombres"
+          placeholder="Ingresa tus nombres"
+        />
+
+        <input
+          class="controls"
+          name="apellidos"
+          id="apellidos"
+          placeholder="Ingresa tus Apellidos"
+        />
+        <input
+          class="controls"
+          type="email"
+          name="correo"
+          id="correo"
+          placeholder="Ingresa tu correo"
+        />
+        <input
+          class="controls"
+          type="password"
+          name="correo"
+          id="correo"
+          placeholder="Ingresa tu contraseña"
+        />
+        <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+        <input class="botons" type="submit" value="Registrar" />
+        <p><a href="#">¿Ya tengo cuenta?</a></p>
+        <!-- 
         <div>
           <label for="name">Nombres</label>
           <input id="name" type="text" />
@@ -38,8 +71,8 @@
         <div>
           <label for=number">Telefono Celular</label>
           <input id="number" type="number" />
-        </div>
-        <button type="submit">Solicitar Información</button>
+        </div> -->
+        <!-- <button type="submit">Solicitar Información</button> -->
       </section>
     </header>
     <!-- fin del header -->
